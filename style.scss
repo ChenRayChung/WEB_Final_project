@@ -1,0 +1,32 @@
+#bar-pic{
+     padding-top: 0px;
+}
+.row .card{
+   
+     margin: 20px;
+     border-style:none;
+ }
+   
+ img{
+
+     object-fit: cover;
+     border-radius: 50%;
+     height: 400px;
+     transition: 1s;
+     &:hover{
+          transform: scale(0.8);
+
+     }
+ }
+ .btn{
+      background: #000;
+      border-style:none;
+      
+ }
+h5{
+     text-align: center;
+}
+
+
+ 
+ 

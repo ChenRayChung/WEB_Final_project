@@ -1,1 +1,32 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+#bar-pic {
+  padding-top: 0px;
+}
+
+.row .card {
+  margin: 20px;
+  border-style: none;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  height: 400px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+img:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.btn {
+  background: #000;
+  border-style: none;
+}
+
+h5 {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
