@@ -1,20 +1,21 @@
-#bar-pic{
-     padding-top: 0px;
-}
+
 .row .card{
    
-     margin: 20px;
+     margin: 30px;
      border-style:none;
+     
  }
    
  img{
-
+     border-radius: 50% !important;
      object-fit: cover;
-     border-radius: 50%;
+     
      height: 400px;
      transition: 1s;
      &:hover{
           transform: scale(0.8);
+          border-radius: 30%!important;
+
 
      }
  }
@@ -26,6 +27,13 @@
 h5{
      text-align: center;
 }
+// #text{
+//      background: #000;
+//      color: white;
+//      padding: 30px;
+//      border-radius: 50%;
+// }
+
 
 
  
